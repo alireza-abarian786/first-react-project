@@ -1,0 +1,77 @@
+.portfolio-wrap .portfolio-info {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    transition: all ease-in-out 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 20px;
+}
+.portfolio-wrap {
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background: rgba(21, 21, 21, 0.6);
+    height: 100%;
+}
+.portfolio-wrap:hover .portfolio-info {
+    opacity: 1;
+    background: rgba(21, 21, 21, 0.1);
+}
+.portfolio-wrap::before {
+    content: "";
+    background: rgba(21, 21, 21, 0.6);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all ease-in-out 0.3s;
+    z-index: 2;
+    opacity: 0;
+}
+.portfolio-wrap img {
+    transition: all ease-in-out 0.3s;
+    width: 100%;
+    vertical-align: middle;
+}
+.portfolio-wrap:hover img {
+    transform: scale(1.2);
+}
+.portfolio-wrap:hover::before {
+    opacity: 1;
+}
+.portfolio-wrap .portfolio-info h4 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+.portfolio-wrap .portfolio-info p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+}
+.portfolio-wrap .portfolio-links {
+    text-align: center;
+    z-index: 4;
+}
+.portfolio-wrap .portfolio-links a {
+    fill: #fff;
+    margin: 0 5px 0 0;
+    display: inline-block;
+    transition: 0.3s;
+
+}
+.portfolio-wrap .portfolio-links a:hover svg {
+    fill: #ffc451;
+}

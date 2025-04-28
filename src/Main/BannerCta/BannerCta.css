@@ -1,0 +1,56 @@
+.container-cta {
+    height: 280px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin: 4rem 0;
+}
+.container-cta::before {
+    content: '';
+    position: absolute;
+    height: 280px;
+    width: 100%;
+    z-index: -1;
+    background-image: url('https://theme-script.ir/templates/kasuka/assets/img/cta-bg.jpg');
+    background-position-y: center;
+    filter: brightness(0.5);
+}
+.container-cta__content {
+    width: 80%;
+}
+.container-cta__content h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+.container-cta__content p {
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+.container-cta__content a {
+    font-weight: 600;
+    font-size: 16px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 4px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.container-cta__content a:hover {
+    background-color: #ffc451;
+    border-color: #ffc451;
+    color: #111;
+}
+
+
+
+
+
+
+

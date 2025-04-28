@@ -1,0 +1,41 @@
+.container-service {
+    width: 80%;
+}
+.container-service__title {
+    padding-bottom: 4rem;
+}
+.container-service__title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    position: relative;
+}
+.container-service__title h2::after {
+    content: '';
+    position: absolute;
+    width: 8rem;
+    height: 1px;
+    background-color: #ffc451;
+    right: 3rem;
+}
+.container-service__title p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #151515;
+    text-align: justify;
+}
+
+.container-service__boxes {
+    display: grid;
+    grid-template-columns: repeat(3 , 416px);
+    grid-template-rows: repeat(2 , 340px);
+    justify-content: center;
+    gap: 3rem;
+}
