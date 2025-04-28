@@ -1,75 +1,17 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 body {
     font-family: vazirmatn;
-    margin: 0;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
     background-color: #fff;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
 }
-.container-header {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-}
-.container-header::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    background-image: url('https://theme-script.ir/templates/kasuka/assets/img/hero-bg.jpg');
-    filter: brightness(0.5);
-}
-
-.container-header__main__boxes {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    gap: 1.5rem;
-}
-
-.container-header__main {
-    height: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 4rem;
-}
-
-.container-main {
-    margin-top: 5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.container-clients {
+.container-sections {
+    margin: 4rem auto;
     width: 80%;
-}
-.container-clients__images {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 2rem;
-}
-
-.container-clients__pagination {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1rem;
-    gap: 0.5rem;
 }

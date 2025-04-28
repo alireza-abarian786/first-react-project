@@ -5,8 +5,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    position: relative;
-    margin: 4rem 0;
 }
 .container-cta::before {
     content: '';

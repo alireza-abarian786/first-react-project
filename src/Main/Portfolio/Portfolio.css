@@ -1,15 +1,11 @@
-.portfolio-title h2::after {
-    right: 4.5rem;
-}
-
-#portfolio-flters {
+#portfolio-filters {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
     margin: 0 auto 20px auto;
 }
-#portfolio-flters li {
+#portfolio-filters li {
     cursor: pointer;
     display: inline-block;
     padding: 8px 15px 10px 15px;
@@ -22,7 +18,7 @@
     transition: all 0.3s ease-in-out;
     border-radius: 3px;
 }
-#portfolio-flters li:hover {
+#portfolio-filters li:hover {
     color: #151515;
     background: #ffc451;
 }

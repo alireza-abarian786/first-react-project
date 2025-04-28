@@ -1,0 +1,32 @@
+.container-header {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.container-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: url('https://theme-script.ir/templates/kasuka/assets/img/hero-bg.jpg');
+    filter: brightness(0.5);
+}
+.container-header__main__boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    gap: 1.5rem;
+}
+.container-header__main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}

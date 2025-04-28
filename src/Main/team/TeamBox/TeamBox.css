@@ -1,0 +1,67 @@
+.member {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+.member .member-img {
+    position: relative;
+    overflow: hidden;
+    max-height: 306px;
+}
+.member .member-img img {
+    max-width: 100%;
+    height: auto;
+}
+.member .member-img .social {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    right: 0;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    text-align: center;
+}
+.member:hover .social {
+    opacity: 1;
+    bottom: 15px;
+}
+.member .member-img .social a {
+    transition: color 0.3s;
+    color: #151515;
+    margin: 0 3px;
+    border-radius: 4px;
+    width: 36px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0.8);
+    transition: ease-in-out 0.3s;
+    color: #484848;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.member .member-img .social a:hover {
+    background-color: #ffc451;
+}
+.member .social i {
+    font-size: 18px;
+    line-height: 0;
+}
+
+.member .member-info {
+    padding: 15px;
+}
+.member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #151515;
+}
+.member .member-info span {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+

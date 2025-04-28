@@ -70,8 +70,11 @@
     margin: 0 5px 0 0;
     display: inline-block;
     transition: 0.3s;
+    font-size: xx-large;
 
 }
-.portfolio-wrap .portfolio-links a:hover svg {
-    fill: #ffc451;
+.portfolio-wrap .portfolio-links a i {
+}
+.portfolio-wrap .portfolio-links a:hover i {
+    color: #ffc451;
 }

@@ -1,9 +1,3 @@
 import './Pagination.css'
-
-export default function Pagination() {
-  return (
-        // <div class="pagination-box">
-            <div className="pagination-bullet"></div>
-        // </div>      
-  )
-}
+const Pagination = (props) => <div className={`pagination-bullet  ${props.active ? 'active' : 'no-active'}`}></div>
+export default Pagination

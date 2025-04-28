@@ -9,7 +9,7 @@ a {
     align-items: center;
     justify-content: space-evenly;
     background: rgba(0, 0, 0, 0.8);
-    padding: 1rem 0;
+    padding: 2.5rem 0;
     position: fixed;
     top: 0;
     z-index: 9999;
@@ -26,6 +26,7 @@ a {
 }
 .container-navbar__logo-box__link span{
     color: #fff;
+    font-size: xx-large;
 }
 
 .container-navbar__menu-box ul {

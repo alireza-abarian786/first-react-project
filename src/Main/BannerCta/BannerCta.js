@@ -14,5 +14,3 @@ export default function BannerCta() {
     </div>
   )
 }
-
-// https://theme-script.ir/templates/kasuka/assets/img/cta-bg.jpg

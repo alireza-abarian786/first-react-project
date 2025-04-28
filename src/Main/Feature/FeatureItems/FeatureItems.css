@@ -2,8 +2,7 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-    margin-bottom: 2.5rem;
-    padding-right: 0.5rem;
+    padding-right: 2.5rem;
 }
 .container-feature__description-content div {
     display: flex;
@@ -17,6 +16,10 @@
 .container-feature__description-content p {
     font-size: 15px;
     color: #848484;
-    /* margin-right: 60px; */
     text-align: justify;
+}
+.container-feature__description-content i {
+    font-size: xxx-large;
+    color: #ffc451;
+    padding-top: 15px;
 }

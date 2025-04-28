@@ -1,10 +1,8 @@
-.container-service {
-    width: 80%;
-}
-.container-service__title {
+.container-sections__title {
     padding-bottom: 4rem;
 }
-.container-service__title h2 {
+.container-sections__title h2 {
+    display: inline-block;
     font-size: 14px;
     font-weight: 500;
     padding: 0;
@@ -14,15 +12,15 @@
     color: #aaaaaa;
     position: relative;
 }
-.container-service__title h2::after {
+.container-sections__title h2::after {
     content: '';
     position: absolute;
     width: 8rem;
     height: 1px;
     background-color: #ffc451;
-    right: 3rem;
+    right: 120%;
 }
-.container-service__title p {
+.container-sections__title p {
     margin: 0;
     margin: 0;
     font-size: 36px;

@@ -1,0 +1,16 @@
+.container-clients {
+    margin-top: 2rem;
+}
+.container-clients__image-box {
+    width: 116px;
+    opacity: 0.2;
+    filter: grayscale(1);
+    transition: 0.3s;
+}
+.container-clients__image-box:hover {
+    opacity: 1;
+    filter: grayscale(0);
+}
+.container-clients__image-box img {
+    width: 100%;
+}

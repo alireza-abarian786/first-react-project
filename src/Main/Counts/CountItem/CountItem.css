@@ -1,0 +1,24 @@
+.count-box {
+    padding: 1rem 0;
+}
+.count-box i {
+    display: block;
+    font-size: 36px;
+    color: #ffc451;
+    float: right;
+}
+.count-box span {
+    font-size: 36px;
+    line-height: 30px;
+    display: block;
+    font-weight: 700;
+    color: #151515;
+    margin: .5rem 50px 0 0;
+}
+.count-box p {
+    padding: 15px 0 0 0;
+    margin: 0 0 0 50px;
+    font-size: 14px;
+    color: #3b3b3b;
+    text-align: justify;
+}

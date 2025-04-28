@@ -1,0 +1,20 @@
+.container-count {
+    display: flex;
+    height: 560px;
+}
+.container-count h3 {
+    font-weight: 700;
+    font-size: 34px;
+    color: #151515;
+    margin-bottom: .5rem;
+}
+.container-count__description {
+    padding: 40px;
+    width: 55%;
+}
+.container-count__description-content {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+    padding-top: 1rem;
+}
