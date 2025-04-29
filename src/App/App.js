@@ -10,6 +10,7 @@ import Counts from '../Main/Counts/Counts'
 import Testimonials from '../Main/testimonials/Testimonial'
 import Team from '../Main/team/team'
 import Contact from '../Main/Contact/Contact'
+import Footer from '../Footer/Footer'
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
         <Testimonials />
         <Team />
         <Contact />
+        <Footer/>
     </div>
   )
 }

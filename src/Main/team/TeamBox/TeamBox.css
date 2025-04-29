@@ -27,27 +27,6 @@
     opacity: 1;
     bottom: 15px;
 }
-.member .member-img .social a {
-    transition: color 0.3s;
-    color: #151515;
-    margin: 0 3px;
-    border-radius: 4px;
-    width: 36px;
-    height: 36px;
-    background: rgba(255, 255, 255, 0.8);
-    transition: ease-in-out 0.3s;
-    color: #484848;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-}
-.member .member-img .social a:hover {
-    background-color: #ffc451;
-}
-.member .social i {
-    font-size: 18px;
-    line-height: 0;
-}
 
 .member .member-info {
     padding: 15px;

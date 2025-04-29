@@ -13,7 +13,7 @@ export default function Counts() {
               <h3>شایسته ترین لذت را به هر حال ارائه می دهد</h3>
               <p>خود درد ممکن است درد زیادی باشد ، اما دلیل اصلی آن درد است ، اما من به آن زمان می دهم تا مانند یک درد و درد بزرگ در آن فرو برود. درد مقصر است</p>
               
-              <div class="container-count__description-content">
+              <div className="container-count__description-content">
                 <CountItem icon="bi bi-emoji-smile" count="65" title="مشتریان خوشحال" text="خوشحالیم که از معمار چیزی دریافت کنیم." />
                 <CountItem icon="bi bi-journal-richtext" count="85" title="پروژه ها" text="برای بدست آوردن و زمانی که او کل کسانی را که از او تعریف می کنند رد می کند و آنها را حقیر می شمارد" />
                 <CountItem icon="bi bi-clock" count="35" title="سال تجربه" text="یا اجازه دهید به دنبال نوعی مزیت باشد" />
