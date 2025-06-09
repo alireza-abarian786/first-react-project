@@ -35,13 +35,25 @@ I'm **Alireza Abarian**, a passionate front-end developer interested in building
 ## 🖼️ Screenshots
 
 <div align="center">
-  <a href="#"><img src="https://i.ibb.co/pvt48Qsq/Screenshot-2025-06-03-204014.png" alt="Screenshot-2025-06-03-204014" border="0" width="500"></a>
-  <a href="#"><img src="https://i.ibb.co/4w0tMFby/Screenshot-2025-06-03-204101.png" alt="Screenshot-2025-06-03-204101" border="0" width="500"></a>
-  <a href="#"><img src="https://i.ibb.co/QFHHpz7k/Screenshot-2025-06-03-204132.png" alt="Screenshot-2025-06-03-204132" border="0" width="500"></a>
-  <a href="#"><img src="https://i.ibb.co/YJNTXWN/Screenshot-2025-06-03-204156.png" alt="Screenshot-2025-06-03-204156" border="0" width="500"></a>
-  <a href="#"><img src="https://i.ibb.co/Ld9xJ6sq/Screenshot-2025-06-03-204218.png" alt="Screenshot-2025-06-03-204218" border="0" width="500"></a>
-  <a href="#"><img src="https://i.ibb.co/DHcqW1cB/Screenshot-2025-06-03-204240.png" alt="Screenshot-2025-06-03-204240" border="0" width="500"></a>
-  <a href="#"><img src="https://i.ibb.co/VWNPXjWK/Screenshot-2025-06-03-204258.png" alt="Screenshot-2025-06-03-204258" border="0" width="500"></a>
+  <img src="https://i.ibb.co/pvt48Qsq/Screenshot-2025-06-03-204014.png" alt="Screenshot-2025-06-03-204014">
+  
+  #
+  <img src="https://i.ibb.co/4w0tMFby/Screenshot-2025-06-03-204101.png" alt="Screenshot-2025-06-03-204101">
+  
+  #
+  <img src="https://i.ibb.co/QFHHpz7k/Screenshot-2025-06-03-204132.png" alt="Screenshot-2025-06-03-204132">
+  
+  #
+  <img src="https://i.ibb.co/YJNTXWN/Screenshot-2025-06-03-204156.png" alt="Screenshot-2025-06-03-204156">
+  
+  #
+  <img src="https://i.ibb.co/Ld9xJ6sq/Screenshot-2025-06-03-204218.png" alt="Screenshot-2025-06-03-204218">
+  
+  #
+  <img src="https://i.ibb.co/DHcqW1cB/Screenshot-2025-06-03-204240.png" alt="Screenshot-2025-06-03-204240">
+  
+  #
+  <img src="https://i.ibb.co/VWNPXjWK/Screenshot-2025-06-03-204258.png" alt="Screenshot-2025-06-03-204258">
 </div>
 
 ---
